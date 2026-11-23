@@ -17,8 +17,8 @@ Los vecinos del barrio, familias y compradores locales que buscan adquirir produ
 | Inicio | Presentación del granero, mensaje de bienvenida y productos destacados | Freider Murillo |
 | Productos | Catálogo detallado de abarrotes, víveres y precios por categorías | Cristian Quiroga |
 | Contacto | Formulario de contacto, ubicación, teléfono y horarios de atención | Cristian Quiroga |
-| Nosotros | 
-| Servicios | 
+| Nosotros | Historia del Granero, trayectoria en el Barrio, misión y valores de atención | Cristian Quiroga |
+| Servicios | Detalles de pedidos y encargos especiales | Cristian Quiroga |
 ## Paleta y tipografía
 - Principal: #2C3E50 / #27AE60 
 - Fuente: Segoe UI, Tahoma, Geneva, sans-serif
