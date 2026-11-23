@@ -1,0 +1,24 @@
+/* css/kit.css - Kit de identidad de marca: Granero El Relajo */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    /* Paleta Principal (Amarillos y tonos tierra/café de la tienda) */
+    --color-primario: #F4B400;        /* Amarillo dorado vibrante */
+    --color-primario-oscuro: #D99B00; /* Amarillo mostaza para hover */
+    --color-secundario: #4E342E;      /* Café oscuro para encabezados y contrastes */
+    --color-fondo: #FFFDF5;           /* Crema muy suave para el fondo */
+    --color-superficie: #FFF3CD;      /* Amarillo pastel para tarjetas y secciones */
+    --color-tarjeta: #FFFFFF;         /* Blanco limpio para contraste de lectura */
+    
+    /* Textos */
+    --texto-principal: #2D241E;       /* Café casi negro para legibilidad */
+    --texto-suave: #6D5D53;           /* Gris cálido */
+    --texto-claro: #FFFDF5;           /* Texto sobre fondos oscuros */
+
+    /* Botones de acción */
+    --whatsapp-marca: #25D366;
+    --whatsapp-hover: #1EBE5D;
+
+    /* Tipografía */
+    --fuente-principal: "Poppins", "Segoe UI", Arial, sans-serif;
+}
