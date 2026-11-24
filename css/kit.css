@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    --color-primario: #F4B400;
+    --color-primario-oscuro: #D99B00;
+    --color-secundario: #4E342E;
+    --color-fondo: #FFFDF5;
+    --color-superficie: #FFF3CD;
+    --color-tarjeta: #FFFFFF;
+    --texto-principal: #2D241E;
+    --texto-suave: #6D5D53;
+    --texto-claro: #FFFDF5;
+    --whatsapp-marca: #25D366;
+    --whatsapp-hover: #1EBE5D;
+    --fuente-principal: "Poppins", "Segoe UI", Arial, sans-serif;
+}
