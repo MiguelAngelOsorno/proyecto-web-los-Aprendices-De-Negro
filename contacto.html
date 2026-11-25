@@ -27,7 +27,33 @@
         </div>
     </nav>
 
-  
+    <main class="flex-grow-1 py-5">
+        <div class="container">
+            <h1 class="text-center fw-bold titulo-marca mb-4">Contáctanos y haz tu consulta</h1>
+            <div class="row g-4 align-items-start">
+                <div class="col-12 col-md-6">
+                    <form class="needs-validation p-4 rounded-3 superficie-marca" novalidate>
+                        <div class="mb-3">
+                            <label for="nombreCliente" class="form-label fw-semibold">Nombre completo</label>
+                            <input type="text" class="form-control" id="nombreCliente" placeholder="Ej. Camila Gómez" required>
+                            <div class="invalid-feedback">Por favor escribe tu nombre.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="correoCliente" class="form-label fw-semibold">Correo electrónico</label>
+                            <input type="email" class="form-control" id="correoCliente" placeholder="nombre@correo.com" required>
+                            <div class="invalid-feedback">Ingresa un correo electrónico válido.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensajeCliente" class="form-label fw-semibold">Mensaje o lista de productos</label>
+                            <textarea class="form-control" id="mensajeCliente" rows="4" placeholder="Cuéntanos qué víveres o abarrotes buscas..." required></textarea>
+                            <div class="invalid-feedback">Escribe un mensaje antes de enviar.</div>
+                        </div>
+                        <button type="submit" class="btn btn-relajo px-4 py-2">Enviar mensaje</button>
+                        <div class="alert alert-success mt-3 d-none" id="alertaEnvio" role="alert">
+                            ¡Listo! Tu mensaje fue enviado correctamente. También puedes escribirnos directo al WhatsApp +57 313 6951353.
+                        </div>
+                    </form>
+                </div>
 
                 <div class="col-12 col-md-6">
                     <div class="p-4 rounded-3 superficie-marca">
