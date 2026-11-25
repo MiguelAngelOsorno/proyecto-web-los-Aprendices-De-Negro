@@ -9,28 +9,44 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="tema-relajo d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-md navbar-dark navbar-relajo sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">☀️ Granero El Relajo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto gap-md-2">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
   
+
+                <div class="col-12 col-md-6">
+                    <div class="p-4 rounded-3 superficie-marca">
+                        <h2 class="h5 fw-bold titulo-marca mb-3">Información del Granero</h2>
+                        <p class="mb-2">📍 <strong>Calle 104 A #74 - 40 Barrio Pedregal, Medellín, Antioquia</strong></p>
+                        <p class="mb-2">📱 <strong>Teléfono:</strong> +57 313 6951353</p>
+                        <p class="mb-0">✉️ <strong>Correo:</strong> elrelajo7704@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-4 footer-relajo text-center mt-auto">
+        <div class="container">
+            <p class="mb-0 small">© 2026 Granero El Relajo. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        (() => {
-            "use strict";
-            const forms = document.querySelectorAll(".needs-validation");
-            Array.from(forms).forEach((form) => {
-                form.addEventListener("submit", (event) => {
-                    event.preventDefault();
-                    event.stopPropagation();
-                    const alerta = document.getElementById("alertaEnvio");
-                    if (form.checkValidity()) {
-                        alerta.classList.remove("d-none");
-                        form.reset();
-                        form.classList.remove("was-validated");
-                    } else {
-                        alerta.classList.add("d-none");
-                        form.classList.add("was-validated");
-                    }
-                }, false);
-            });
-        })();
-    </script>
 </body>
 </html>
